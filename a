@@ -1,0 +1,98 @@
+def SumTwoNumbers(x, y):
+  print(x+y)
+  
+SumTwoNumbers(5,6)
+
+2.piem
+
+def printModelis(n):
+    for i in range(n):
+        print('=======')
+        print(' -x+x-')
+        print('=======')
+
+name = input('What is your name?: ')
+printModelis(1)
+age = input('How old are you?: ')
+printModelis(2)
+drink = input('What is yout favorite drink?: ')
+printModelis(3)
+print(f'Hello {name}! You are {age} y.o.\nYour favorite drink is {drink}.')
+
+ 3.piem
+import random
+
+def cube():
+    result = random.randint(1, 6)
+    if result == 1:
+        return "One"
+    elif result == 2:
+        return "Two"
+    elif result == 3:
+        return "Three"
+    elif result == 4:
+        return "Four"
+    elif result == 5:
+        return "Five"
+    else:
+        return "Six"
+
+game_result = cube()
+print(game_result)
+ 4.piem
+ name = input('What is your name?: ')
+print('=======')
+print(' -x+x-')
+print('=======')
+age = input('How old are you?: ')
+print('=======')
+print(' -x+x-')
+print('=======')
+drink = input('What is yout favorite drink?: ')
+print('=======')
+print(' -x+x-')
+print('=======')
+print(f'Hello {name}! You are {age} y.o.\nYour favorite drink is {drink}.')
+
+5.piem
+def shapes():
+  print('=======')
+  print(' -x+x-')
+  print('=======')
+
+name = input('What is your name?: ')
+shapes()
+age = input('How old are you?: ')
+shapes()
+drink = input('What is yout favorite drink?: ')
+shapes()
+print(f'Hello {name}! You are {age} y.o.\nYour favorite drink is {drink}.')
+
+6.piem
+def nice_shapes():
+    print('=======\n -x+x-\n=======')
+
+atb = []
+for i in ['What is your name?:','How old are you?:','How old are you?:']:
+    atb.append(input(i))
+    nice_shapes()
+print(f'Hello {name}! You are {age} y.o.\nYour favorite drink is {drink}.')
+
+7.piem 
+contacts = []
+
+name = input('Enter name: ')
+surname = input('Enter surname: ')
+number = input('Enter number: ')
+email = input('Enter email: ')
+
+contact = {
+    'name': name, 
+    'surname': surname, 
+    'number': number,
+    'email': email
+}
+
+contacts.append(contact)
+
+8.piem
